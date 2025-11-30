@@ -797,8 +797,8 @@
       const currentMonth = today.getMonth();
 
      
-
-      if (day !== 6 && (currentMonth !== 11 || day > currentDayOfMonth)) {
+/* if (day !== 6 &&...) */
+      if (currentMonth !== 11 || day > currentDayOfMonth) {
 
         showLockedMessage(day);
 
@@ -1151,6 +1151,7 @@
 </html>
 </body>
 </html>
+
 
 
 
